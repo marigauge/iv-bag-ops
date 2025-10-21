@@ -1,4 +1,4 @@
-Entries:
+﻿Entries:
 - author: unafil
   changes:
   - message: This changelog WILL be the death of me.
@@ -6,3 +6,10 @@ Entries:
   id: 1759
   time: '2025-10-21T18:39:12.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/7
+- author: unafil
+  changes:
+  - message: Broke everything, probably
+    type: Fix
+  id: 1760
+  time: '2025-10-21T23:21:20.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/11
