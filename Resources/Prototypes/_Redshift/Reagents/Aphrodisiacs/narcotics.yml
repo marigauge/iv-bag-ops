@@ -1,0 +1,51 @@
+- type: reagent
+  id: Libidozenithizine # look i. just. i dont really. care
+  name: reagent-name-panaxamine
+  group: Narcotics
+  desc: reagent-desc-panaxamine
+  physicalDesc: reagent-physical-desc-crystalline
+  flavor: bitter
+  color: "#f0a3ff"
+  metabolisms:
+    Narcotic:
+      metabolismRate : 0.03
+      effects:
+      - !type:PopupMessage
+        type: Local
+        visualType: Medium
+        probability: 0.10
+        messages:
+        - reagent-effect-aphrodisiac-strong1
+        - reagent-effect-aphrodisiac-strong2
+        - reagent-effect-aphrodisiac-strong3
+        conditions:
+        - !type:ReagentThreshold
+          max: 10.0
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 10.0
+        damage:
+          types:
+            Poison: 0.05
+      - !type:PopupMessage
+        type: Local
+        visualType: LargeCaution
+        probability: 0.2
+        messages:
+        - reagent-effect-aphrodisiac-strongoverdose1
+        - reagent-effect-aphrodisiac-strongoverdose2
+        - reagent-effect-aphrodisiac-strongoverdose3
+        - reagent-effect-aphrodisiac-strongoverdose4
+        conditions:
+        - !type:ReagentThreshold
+          min: 10.0
+      - !type:PopupMessage
+        type: Local
+        visualType: Small
+        probability: 0.2
+        messages:
+          - "reagent-effect-aphrodisiac-fade"
+        conditions:
+          - !type:ReagentThreshold
+            max: 0.1
