@@ -20,3 +20,20 @@
   id: 1761
   time: '2025-10-21T23:21:20.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/11
+- author: unafil
+  changes:
+  - message: 'Slightly modified Floof reagents: the aphrodisiacs Lythraceaneum, Philterex,
+      and Panaxamine, along side the natural reagents as well. **Internal reagent
+      name remains the same as it was, keep that in mind when using the reagent edit
+      menu.**'
+    type: Add
+  id: 1762
+  time: '2025-10-22T07:23:48.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/12
+- author: unafil
+  changes:
+  - message: Broke everything, probably
+    type: Fix
+  id: 1763
+  time: '2025-10-21T23:21:20.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/11
