@@ -47,3 +47,10 @@
   id: 1764
   time: '2025-10-22T07:23:48.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/12
+- author: unafil
+  changes:
+  - message: I swear. To god. Changelogs have GOT to work this time
+    type: Fix
+  id: 1765
+  time: '2025-10-22T07:45:53.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/13
