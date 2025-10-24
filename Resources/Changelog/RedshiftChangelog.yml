@@ -61,3 +61,10 @@
   id: 1766
   time: '2025-10-24T02:55:41.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/17
+- author: unafil
+  changes:
+  - message: Server whitelist is real. Spooky!
+    type: Add
+  id: 1767
+  time: '2025-10-24T05:43:51.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/18
