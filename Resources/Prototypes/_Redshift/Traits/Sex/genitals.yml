@@ -1,0 +1,21 @@
+- type: trait
+  id: Cock
+  name: trait-genital-cock-name
+  description: trait-genital-cock-desc
+  category: Genitals
+  cost: 1
+  components:
+  - type: Genital
+    useVerbText: genital-cock-use-verb
+    reagentId: Cum
+
+- type: trait
+  id: Pussy
+  name: trait-genital-pussy-name
+  description: trait-genital-pussy-desc
+  category: Genitals
+  cost: 1
+  components:
+  - type: Genital
+    useVerbText: genital-pussy-use-verb
+    reagentId: NaturalLubricant
