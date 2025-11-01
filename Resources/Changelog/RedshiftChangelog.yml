@@ -68,3 +68,23 @@
   id: 1767
   time: '2025-10-24T05:43:51.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/18
+- author: unafil
+  changes:
+  - message: Genitals have been added, select them in the trait menu.
+    type: Add
+  - message: You can now straight up jork your shit. (provided you take your underwear
+      off first)
+    type: Add
+  - message: Arousal system. Try not to let it get too high. All existing aphrodisiacs
+      will increase arousal.
+    type: Add
+  - message: '`setarousal` command. Can only increase arousal.'
+    type: Add
+  - message: Drivinine, a decent anti-poison medication with a particularly unfortunate
+      side effect.
+    type: Add
+  - message: Aphrodisiac stunlock combat meta
+    type: Add
+  id: 1768
+  time: '2025-11-01T08:47:45.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/20
