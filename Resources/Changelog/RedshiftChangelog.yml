@@ -88,3 +88,19 @@
   id: 1768
   time: '2025-11-01T08:47:45.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/20
+- author: unafil
+  changes:
+  - message: Genitals may produce descriptions when their owner is examined, under
+      certain conditions. If you wear a skirt, for example, make sure to equip underwear
+      so nothing pokes at it.
+    type: Add
+  id: 1769
+  time: '2025-11-06T08:18:53.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/21
+- author: unafil
+  changes:
+  - message: Upstream merge. Notably, includes Submarine and Academy. Borers disabled.
+    type: Add
+  id: 1770
+  time: '2025-11-06T03:04:17.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/22
