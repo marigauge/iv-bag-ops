@@ -238,6 +238,7 @@
   - type: Carriable # DeltaV
   - type: EmoteCooldown # DeltaV - implement RMC emote cooldown
   - type: ModifyUndies  # FLOOF Add
+  - type: GrappleTarget # DeltaV - Allow targets to be grappled
 
 - type: entity
   save: false
