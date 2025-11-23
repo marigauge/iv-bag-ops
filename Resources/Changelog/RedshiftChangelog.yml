@@ -132,3 +132,10 @@
   id: 1774
   time: '2025-11-23T09:49:26.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/26
+- author: unafil
+  changes:
+  - message: Change. log.
+    type: Fix
+  id: 1775
+  time: '2025-11-23T22:04:54.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/27
