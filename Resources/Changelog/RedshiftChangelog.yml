@@ -111,3 +111,17 @@
   id: 1771
   time: '2025-11-10T08:08:32.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/23
+- author: unafil
+  changes:
+  - message: Sex toys have been ported from Floof.
+    type: Add
+  id: 1772
+  time: '2025-11-23T08:57:18.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/25
+- author: unafil
+  changes:
+  - message: Upstream merge, including the merge upstream of upstream's upstream merge.
+    type: Add
+  id: 1773
+  time: '2025-11-20T03:06:56.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/24
