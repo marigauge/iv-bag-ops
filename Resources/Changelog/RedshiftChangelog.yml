@@ -150,3 +150,11 @@
   id: 1776
   time: '2025-11-25T08:09:53.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/28
+- author: unafil
+  changes:
+  - message: A small number of Monolith clothing items and grids are now in the files,
+      for admeme usage.
+    type: Add
+  id: 1777
+  time: '2025-12-15T05:00:28.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/29
