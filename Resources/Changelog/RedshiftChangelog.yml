@@ -158,3 +158,10 @@
   id: 1777
   time: '2025-12-15T05:00:28.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/29
+- author: unafil
+  changes:
+  - message: god please update I just want my silly mono grids
+    type: Fix
+  id: 1778
+  time: '2025-12-24T08:44:11.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/30
