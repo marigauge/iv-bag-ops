@@ -165,3 +165,12 @@
   id: 1778
   time: '2025-12-24T08:44:11.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/30
+- author: unafil
+  changes:
+  - message: Artifacts can now be sometimes triggered via climax.
+    type: Add
+  - message: Jolliness.
+    type: Add
+  id: 1779
+  time: '2025-12-26T04:27:06.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/31
