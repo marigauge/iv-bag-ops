@@ -300,8 +300,6 @@
         Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
-  - type: LayingDown # WD EDIT
-  #- type: StunVisuals # DeltaV - disabled stun visuals for now
   #- type: StunVisuals # DeltaV - No stars
   - type: CanDoCPR # DeltaV - Addition of CPR
   - type: Arousal # Redshift - :)
