@@ -174,3 +174,17 @@
   id: 1779
   time: '2025-12-26T04:27:06.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/31
+- author: unafil
+  changes:
+  - message: Straight up merging it. And by 'it'. Let's just say. haha. My upstream
+    type: Add
+  id: 1780
+  time: '2025-12-27T07:38:38.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/32
+- author: unafil
+  changes:
+  - message: Straight up merging it. And by 'it'. Let's just say. haha. My upstream
+    type: Add
+  id: 1781
+  time: '2025-12-27T07:50:44.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/34
