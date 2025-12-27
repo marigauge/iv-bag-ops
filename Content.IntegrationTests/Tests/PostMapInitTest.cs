@@ -76,7 +76,9 @@ namespace Content.IntegrationTests.Tests
             "Hammurabi", // DeltaV
             "Lighthouse", // DeltaV
             "Micro", // DeltaV
+            "Ovni", //DeltaV
             "Pebble", // DeltaV
+            "PebbleHiring", // DeltaV
             "Shoukou", // DeltaV
             "Submarine", //DeltaV
             "Terra", //DeltaV
