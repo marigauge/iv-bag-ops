@@ -23,7 +23,8 @@
           - "reagent-effect-aphrodisiac-mild5"
         probability: 0.035
         conditions:
-          - !type:ReagentThreshold
+          - !type:ReagentCondition
+            reagent: Pomelustine
             max: 50
       - !type:PopupMessage # Overdose causes nausea and vomiting
         type: Local
@@ -32,15 +33,18 @@
           - "reagent-effect-aphrodisiac-mildoverdose"
         probability: 0.06
         conditions:
-          - !type:ReagentThreshold
+          - !type:ReagentCondition
+            reagent: Pomelustine
             min: 50
       - !type:Drunk
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Pomelustine
           min: 50
       - !type:ChemVomit
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Pomelustine
           min: 60
         probability: 0.05
       - !type:PopupMessage
@@ -50,7 +54,8 @@
           - "reagent-effect-aphrodisiac-fade" # A decent chance to notify the player when their meds run out, but could happen silently.
         probability: 0.35
         conditions:
-          - !type:ReagentThreshold
+          - !type:ReagentCondition
+            reagent: Pomelustine
             max: 0.1
       - !type:ModifyArousal
         amount: 3

@@ -21,7 +21,8 @@
           - "reagent-effect-aphrodisiac-normal5"
         probability: 0.04
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           max: 16.5
       - !type:PopupMessage
         type: Local
@@ -35,11 +36,13 @@
           - "reagent-effect-aphrodisiac-normaloverdose6"
         probability: 0.06
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           min: 16.5
       - !type:Emote
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           min: 16.5
         emote: Yawn
         showInChat: true
@@ -48,11 +51,13 @@
         walkSpeedModifier: 0.8
         sprintSpeedModifier: 0.8
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           min: 16.5
       - !type:GenericStatusEffect
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           min: 30.0
         key: ForcedSleep
         component: ForcedSleeping
@@ -61,7 +66,8 @@
         probability: 0.1
       - !type:HealthChange # poisons you if you take way too much
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Philterex
           min: 30
         damage:
           types:
@@ -73,7 +79,8 @@
           - "reagent-effect-aphrodisiac-fade" # A decent chance to notify the player when their meds run out, but could happen silently.
         probability: 0.32
         conditions:
-          - !type:ReagentThreshold
+          - !type:ReagentCondition
+            reagent: Philterex
             max: 0.1
       - !type:ModifyArousal # Redshift
         amount: 4

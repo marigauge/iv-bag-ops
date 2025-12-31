@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseItem
+  parent: BaseItem # Redshift - not modified but this should really be inheriting from DrinkBase i think
   id: BaseFleshlight
   abstract: true
   components:
@@ -8,7 +8,8 @@
       Plastic: 100
   - type: StaticPrice
     price: 75
-  - type: Drink
+  - type: Edible # Redshift - drink->edible upstream refactor
+    edible: Drink
     solution: fleshlight
     ignoreEmpty: true
   - type: SolutionContainerManager

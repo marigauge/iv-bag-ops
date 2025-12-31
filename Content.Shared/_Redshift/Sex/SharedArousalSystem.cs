@@ -23,11 +23,11 @@ public abstract class SharedArousalSystem : EntitySystem
         if (ent.Comp.CurrentArousal > 20)
         {
             var level = (short)(Math.Round(ent.Comp.CurrentArousal) / 20);
-            _alerts.ShowAlert(ent, ent.Comp.ArousalAlert, level);
+            _alerts.ShowAlert(ent.Owner, ent.Comp.ArousalAlert, level);
         }
         else
         {
-            _alerts.ClearAlert(ent, ent.Comp.ArousalAlert);
+            _alerts.ClearAlert(ent.Owner, ent.Comp.ArousalAlert);
         }
     }
 }
