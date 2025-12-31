@@ -101,4 +101,4 @@ storage_limit = 3
 time = 600
 
 [rmc]
-emote_cooldown_seconds = 0
+# emote_cooldown_seconds = 0 # NO LONGER NEEDED

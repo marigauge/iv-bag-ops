@@ -61,7 +61,7 @@
           min: 30.0
         key: ForcedSleep
         component: ForcedSleeping
-        refresh: false
+        #refresh: false # Redshift - effect refactor
         type: Add
         probability: 0.1
       - !type:HealthChange # poisons you if you take way too much
