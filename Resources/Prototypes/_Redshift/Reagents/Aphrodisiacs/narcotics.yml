@@ -19,11 +19,13 @@
         - reagent-effect-aphrodisiac-strong2
         - reagent-effect-aphrodisiac-strong3
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Libidozenithizine
           max: 10.0
       - !type:HealthChange
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Libidozenithizine
           min: 10.0
         damage:
           types:
@@ -38,7 +40,8 @@
         - reagent-effect-aphrodisiac-strongoverdose3
         - reagent-effect-aphrodisiac-strongoverdose4
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentCondition
+          reagent: Libidozenithizine
           min: 10.0
       - !type:PopupMessage
         type: Local
@@ -47,7 +50,8 @@
         messages:
           - "reagent-effect-aphrodisiac-fade"
         conditions:
-          - !type:ReagentThreshold
+          - !type:ReagentCondition
+            reagent: Libidozenithizine
             max: 0.1
       - !type:ModifyArousal
         amount: 6
