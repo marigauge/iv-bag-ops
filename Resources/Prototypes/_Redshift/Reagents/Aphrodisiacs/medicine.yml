@@ -41,7 +41,7 @@
         - !type:ReagentCondition
           reagent: Pomelustine
           min: 50
-      - !type:ChemVomit
+      - !type:Vomit
         conditions:
         - !type:ReagentCondition
           reagent: Pomelustine

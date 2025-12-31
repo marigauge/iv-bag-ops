@@ -47,7 +47,7 @@
         emote: Yawn
         showInChat: true
         probability: 0.02
-      - !type:MovespeedModifier
+      - !type:MovementSpeedModifier # Redshift - effect refactor
         walkSpeedModifier: 0.8
         sprintSpeedModifier: 0.8
         conditions:

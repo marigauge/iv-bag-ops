@@ -516,6 +516,8 @@
       effects:
       - !type:SatiateThirst
         factor: 3 # Slightly worse for quenching thirst than just straight water
+      - !type:ModifyArousal # Redshift - i assume ice is a turn-off for most people
+        amount: -4
   plantMetabolism:
   - !type:PlantAdjustWater
     amount: 1 # The internet tells me I should avoid watering plants with ice, but mostly because of temperature, so this value being the same as water should probably be fine?
@@ -525,15 +527,6 @@
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # Begin Redshift - ice changes
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:ModifyArousal
-        amount: -4
-  # End Redshift - ice changes
 
 - type: reagent
   id: DryRamen
