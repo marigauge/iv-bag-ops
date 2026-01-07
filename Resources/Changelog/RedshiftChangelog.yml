@@ -188,3 +188,26 @@
   id: 1781
   time: '2025-12-27T07:50:44.0000000+00:00'
   url: https://github.com/unafil/redshift/pull/34
+- author: unafil
+  changes:
+  - message: She... she merge on my upstream til I 1/3/2026?
+    type: Add
+  id: 1782
+  time: '2026-01-04T07:03:26.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/36
+- author: unafil
+  changes:
+  - message: me when she merges on my upstream
+    type: Add
+  id: 1783
+  time: '2025-12-31T09:15:58.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/35
+- author: unafil
+  changes:
+  - message: Fleshlights can no longer be eaten whole.
+    type: Fix
+  - message: Water no longer decreases arousal.
+    type: Remove
+  id: 1784
+  time: '2026-01-07T05:37:20.0000000+00:00'
+  url: https://github.com/unafil/redshift/pull/37
