@@ -30,6 +30,34 @@ genital-cock-examine =
         }
     }
 
+genital-dualcock-use-verb = jork them
+genital-dualcock-examine =
+    { $uniformType ->
+        *[suit] { $pastThreshold ->
+            [true] [color=pink]There are two prominent bulges in { POSS-ADJ($ent) } pants...[/color]
+            *[false] {""}
+        }
+        [skirt] { $hasUnderwear ->
+            *[true] {""}
+            [false] { $pastThreshold -> 
+                [true] [color=pink]There are two bulges poking out from { POSS-ADJ($ent) } skirt...[/color]
+                *[false] {""}
+            }
+        }
+        [none] { $hasUnderwear ->
+            [false] [color=pink]You can see both of { POSS-ADJ($ent) } cocks![/color] { $arousal ->
+                *[0] Both are flaccid.
+                [1] [color=yellow]Both appear to be half-erect.[/color]
+                [2] [color=orange]Both are fully erect.[/color]
+                [3] [color=red]Both are throbbing, precum dribbling from their tips![/color]
+            }
+            *[true] { $pastThreshold ->
+                [true] [color=pink]There's an extra large tent in { POSS-ADJ($ent) } undies.[/color]
+                *[false] {""}
+            }
+        }
+    }
+
 genital-pussy-use-verb = jork it (crazy)
 genital-pussy-examine = 
     { $uniformType ->

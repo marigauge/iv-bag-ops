@@ -12,6 +12,19 @@
       reagentId: Cum
 
 - type: trait
+  id: Dualcock
+  name: trait-genital-dualcock-name
+  description: trait-genital-dualcock-desc
+  category: Genitals
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Genital
+      useVerbText: genital-dualcock-use-verb
+      examineText: genital-dualcock-examine
+      reagentId: Cum
+
+- type: trait
   id: Pussy
   name: trait-genital-pussy-name
   description: trait-genital-pussy-desc
