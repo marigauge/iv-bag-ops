@@ -3,33 +3,36 @@
   name: trait-genital-cock-name
   description: trait-genital-cock-desc
   category: Genitals
-  cost: 1
-  components:
-  - type: Genital
-    useVerbText: genital-cock-use-verb
-    examineText: genital-cock-examine
-    reagentId: Cum
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Genital
+      useVerbText: genital-cock-use-verb
+      examineText: genital-cock-examine
+      reagentId: Cum
 
 - type: trait
   id: Pussy
   name: trait-genital-pussy-name
   description: trait-genital-pussy-desc
   category: Genitals
-  cost: 1
-  components:
-  - type: Genital
-    useVerbText: genital-pussy-use-verb
-    examineText: genital-pussy-examine
-    reagentId: NaturalLubricant
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Genital
+      useVerbText: genital-pussy-use-verb
+      examineText: genital-pussy-examine
+      reagentId: NaturalLubricant
 
 - type: trait
   id: JingleBells
   name: trait-genital-jinglebells-name
   description: trait-genital-jinglebells-desc
   category: Genitals
-  cost: 1
-  components:
-  - type: Genital
-    useVerbText: genital-jinglebells-use-verb
-    examineText: genital-jinglebells-examine
-    reagentId: Eggnog
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Genital
+      useVerbText: genital-jinglebells-use-verb
+      examineText: genital-jinglebells-examine
+      reagentId: Eggnog

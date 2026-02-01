@@ -1,4 +1,6 @@
 - type: traitCategory
   id: Genitals
   name: trait-category-genitals
-  maxTraitPoints: 1
+  priority: 50 # very bottom
+  maxTraits: 1
+  accentColor: "#9e0303" # dark-red-ish
