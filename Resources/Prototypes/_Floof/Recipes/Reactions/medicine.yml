@@ -1,4 +1,4 @@
-- type: reaction
+- type: reaction # Redshift - something fucky is afoot with the ordering here and I am too lazy to double-check it
   id: Philterex
   impact: Medium
   reactants:
@@ -12,3 +12,18 @@
       amount: 1
   products:
       Philterex: 5
+
+- type: reaction
+  id: Stelloxadone
+  impact: Medium
+  reactants:
+    Stellibinin:
+      amount: 5
+    Cryoxadone:
+      amount: 3
+    Arithrazine:
+      amount: 2
+  products:
+    Stelloxadone: 5
+    Water: 3
+    Fiber: 2
