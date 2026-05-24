@@ -414,6 +414,21 @@
   - SecurityFirearmSpeedLoaderSpecialRubber
   - SecurityFirearmSpeedLoaderSpecial
 
+## Security utility
+- type: loadoutGroup
+  id: SecurityUtility
+  name: security-utility
+  minLimit: 0
+  maxLimit: 4
+  loadouts:
+  - FlashBangLoadout
+  - TearGasLoadout
+  - StingerGrenadeLoadout
+  - RadioHandheldSecurityLoadout
+  - SecHoloProjectorLoadout
+  - HandcuffsLoadout
+  - SecLiteLoadout
+
 ## Security Gloves
 - type: loadoutGroup
   id: SecurityGloves
@@ -1002,15 +1017,6 @@
   - ScarfOrange
   - ScarfBlack
   - ScarfZebra
-
-# Species
-- type: loadoutGroup
-  id: GroupHumanoidSilicon
-  name: loadout-group-humanoid-silicon
-  minLimit: 1
-  hidden: true
-  loadouts:
-  - EmergencyIPCBox
 
 # ERT
 - type: loadoutGroup
